@@ -1,10 +1,25 @@
 # BerkasSiap
 
-**Siapkan lampiran sesuai persyaratan, tanpa bolak-balik mengecek satu per satu.**
+**Siapkan PDF, JPG, dan PNG sesuai persyaratan tanpa bolak-balik mengecek satu per satu.**
 
-BerkasSiap membantu menyusun PDF, JPG, dan PNG menjadi paket dokumen: tentukan apa yang diminta, tambahkan berkas, lalu periksa dan unduh hasilnya. Cocok untuk mencoba alur persiapan lamaran, pendaftaran, atau lampiran administrasi.
+[![MIT License](https://img.shields.io/badge/license-MIT-16a34a)](LICENSE)
+[![Privacy](https://img.shields.io/badge/processing-local%20in%20browser-2563eb)](#privasi-dan-batasan)
+[![Status](https://img.shields.io/badge/status-prototype%200.1.0-f59e0b)](#berkassiap)
 
-Status: prototipe `0.1.0` untuk uji terbatas. Kode dapat dijalankan secara lokal; layanan web publik belum tersedia. Hasil pengujian dicatat di [QA](docs/QA.md), bukan disimpulkan dari status build saja.
+BerkasSiap adalah utilitas browser untuk **menyiapkan paket dokumen administrasi**. Tentukan persyaratan, tambahkan berkas, periksa format/ukuran/halaman, lalu unduh hasilnya satu per satu atau sebagai ZIP.
+
+### Yang membuatnya berguna
+
+- **Local-first:** dokumen diproses di browser, tanpa akun atau backend aplikasi.
+- **Validation-first:** memeriksa format yang dapat dibaca, ukuran, halaman, dan konflik nama.
+- **PDF-aware:** mendukung penggabungan dan konversi gambar ke PDF dengan batasan yang dijelaskan terbuka.
+- **Untuk alur nyata:** cocok untuk menyiapkan lampiran lamaran, pendaftaran, dan administrasi lain.
+
+Status: prototipe **0.1.0** untuk uji terbatas. Kode dapat dijalankan lokal; layanan web publik belum tersedia. Hasil pengujian dicatat di [QA](docs/QA.md), bukan disimpulkan dari status build saja.
+
+> Contoh persyaratan hanyalah titik awal, bukan ketentuan resmi instansi, sekolah, perusahaan, atau portal tertentu.
+
+Jika BerkasSiap menghemat waktu Anda, **star repo ini**. Untuk usulan fitur atau perbaikan, lihat [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Cara pakai
 
