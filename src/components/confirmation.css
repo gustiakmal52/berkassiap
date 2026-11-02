@@ -1,0 +1,7 @@
+.replace-confirmation { width: min(480px, calc(100% - 32px)); padding: 28px; border: 1px solid #8a9d91; border-radius: 12px; background: #fffefa; color: #243b33; }
+.replace-confirmation::backdrop { background: #172a25b3; }
+.replace-confirmation h2 { font: 1.75rem Georgia, serif; margin-bottom: 12px; }
+.replace-confirmation p { font-size: .9375rem; line-height: 1.7; }
+.replace-confirmation > div { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.replace-confirmation button { font-size: .875rem; min-height: 44px; padding: 10px 14px; border: 1px solid #8a9d91; border-radius: 6px; }
+.replace-confirmation button:last-child { background: #285b46; color: white; border-color: #285b46; }
